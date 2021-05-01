@@ -1,46 +1,64 @@
 <?php
 $title = "Home";
-$content = '<img src="Images/BMW.jpg" class="imgLeft" />
+$content = '<img src="Images/new_BMW.png" class="imgLeft" />
 <h3>We have rentals of all types!</h3>
 <p>
-    Hi, this has taken hours to do and I hate that we have to make an entire website for a 
-    database assignment. But here is some filler text for formatting. 
-    
-    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-    himenaeos. Donec porttitor placerat nunc a consectetur. Ut fermentum eleifend molestie.
-    Donec fermentum risus sit amet ante cursus cursus. In hac habitasse platea dictumst.
-    Praesent semper ante ut felis molestie aliquet. Nam quis dui a magna molestie blandit
-    id et justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-    per inceptos himenaeos. Sed felis mauris, mattis a vulputate a, gravida nec metus.
+    Welcome to our database for Car Rentals. We have all sorts of rentals to choose from.
+    Our current rental types are: Compact, Large, Medium, SUV, Truck, and Van. 
 </p>
-
-<img src="Images/keys.jpg" class="imgRight"/>
+<head> 
+		<style> 
+			.gap-60 { 
+				width:100%; 
+				height:60px; 
+		</style> 
+	</head> 
+	<body> 
+		<!-- this div will give a gap of 60px --> 
+		<div class="gap-60"></div> 
+	</body> 
+<img src="Images/new_keys.png" class="imgRight"/>
 <h3>You can choose to rent daily, or weekly. </h3>
 <p>
-    More filler text for the dumb project.
+    We have options that fit your schedule, please go check out our Rental section to see our availability! 
     
-    himenaeos. Donec porttitor placerat nunc a consectetur. Ut fermentum eleifend molestie.
-    Donec fermentum risus sit amet ante cursus cursus. In hac habitasse platea dictumst.
-    Praesent semper ante ut felis molestie aliquet. Nam quis dui a magna molestie blandit
-    id et justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-    per inceptos himenaeos. Sed felis mauris, mattis a vulputate a, gravida nec metus.
-    Vivamus elit augue, ullamcorper eget scelerisque vitae, tincidunt eget lorem. Curabitur
-    id nibh libero, sed pulvinar nisi. Curabitur ultrices, neque in dignissim viverra,
-    justo nisl dignissim magna, a tempor eros turpis in diam. Suspendisse potenti. Sed
-    tincidunt est ac elit bibendum nec varius ante vestibulum.
+    Side note: This spot can either have more filler information or we can change the format of this page
+    to fit in less information. 
 </p>
-
+<head> 
+		<style> 
+			.gap-60 { 
+				width:100%; 
+				height:60px; 
+		</style> 
+	</head> 
+	<body> 
+		<!-- this div will give a gap of 60px --> 
+		<div class="gap-60"></div> 
+	</body> 
 <img src="Images/pixar.jpg" class="imgLeft" />
 <h3>Sorry, but no pixar cars...</h3>
 <p>
-    More filler text for the dumb project.
-    
-    dui. Nulla placerat mollis tincidunt. Praesent at elit mi, a posuere quam. Suspendisse
-    vel leo eu orci lacinia vestibulum. Fusce vel sem fermentum lectus tempus ultrices.
-    Morbi arcu sem, rhoncus sit amet rutrum eget, interdum sit amet leo. Ut mattis lorem
-    vitae dolor tincidunt mattis a lacinia velit. Cras sed nibh at urna imperdiet laoreet
-    quis a risus.
-</p>';
+    Details of the project and a checklist of the requirements can be here.
+</p>
+<head> 
+		<style> 
+			.gap-80 { 
+				width:100%; 
+				height:80px; 
+		</style> 
+	</head> 
+	<body> 
+		<!-- this div will give a gap of 80px --> 
+		<div class="gap-80"></div> 
+	</body> 
+<p>
+Sidebar to the right that we can use for options as well but I think we can do this without it.
+Leaving it for now. 
+</p>
+
+
+';
 
 include 'Template.php';
 ?>
