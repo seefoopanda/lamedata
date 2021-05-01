@@ -1,7 +1,8 @@
 <?php
-$title = "Home";
+$title = "Customer";
 $content = '<!DOCTYPE html>
 <html lang="en">
+<center>
 <head>
     <meta charset="UTF-8">
     <h1>Add Customer Form</h1>
@@ -19,6 +20,7 @@ $content = '<!DOCTYPE html>
     <input type="submit" value="Submit">
 </form>
 </body>
+</center>
 </html>';
 
 include 'Template.php';

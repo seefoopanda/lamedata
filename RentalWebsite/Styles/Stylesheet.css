@@ -48,6 +48,7 @@ body p
 
 footer
 {
+    position:relative;
     clear: both;
     width: auto;
     height: 40px;
@@ -61,7 +62,7 @@ footer
 
 #navigation
 {
-    height: 60px;
+    height: 80px;
     border: 3px solid #E3E3E3;
     margin-top: 20px;
     text-shadow: 0.1em 0.1em #333;
@@ -86,8 +87,9 @@ footer
     font-size: 24px;
     float: left;
     position: relative;
-    width: 180px;
+    width: 110px;
     height: 50px;
+    padding: 4px;
 }
 
 #nav a:link, nav a:active, nav a:visited
