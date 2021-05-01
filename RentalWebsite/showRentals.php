@@ -13,8 +13,8 @@
     <nav id="navigation">
         <ul id="nav">
             <li><a href="index.php">Home</a></li>
-            <li><a href="customerIndex.php">New Customer</a></li>
-            <li><a href="carIndex.php">Add Car</a></li>
+            <li><a href="customerIndex.php">Customer</a></li>
+            <li><a href="carIndex.php">New Car</a></li>
             <li><a href="showRentals.php">Rentals</a></li>
         </ul>
     </nav>
