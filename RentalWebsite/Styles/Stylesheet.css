@@ -36,15 +36,38 @@ body p
     padding: 10px;
 }
 
-#sidebar
-{
+
+/* The side navigation menu */
+.sidebar {
     float: right;
     width: 250px;
-    height: 400px;
+    height: 200px;
     margin: 20px 10px;
     padding: 10px;
     border: 2px solid #E3E3E3;
+    overflow: auto;
 }
+
+/* Sidebar links */
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
 
 footer
 {

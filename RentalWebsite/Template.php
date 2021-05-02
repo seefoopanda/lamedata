@@ -23,9 +23,12 @@
             <div id="content_area">
                 <?php echo $content; ?>
             </div>
-            
-            <div id="sidebar">
-                
+
+            <div class="sidebar">
+                <a class="active" href="index.php">Home</a>
+                <a href="https://github.com/Jmansito/CarDatabase.git">GitHub</a>
+                <a href="contact.php">Contact</a>
+                <a href="about.php">About</a>
             </div>
             
             <footer>

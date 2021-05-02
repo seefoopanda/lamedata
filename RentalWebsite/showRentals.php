@@ -19,6 +19,12 @@
             <li><a href="showDatabase.php">Database</a></li>
         </ul>
     </nav>
+    <div class="sidebar">
+        <a class="active" href="index.php">Home</a>
+        <a href="https://github.com/Jmansito/CarDatabase.git">GitHub</a>
+        <a href="contact.php">Contact</a>
+        <a href="about.php">About</a>
+    </div>
 
     <div id="content_area">
         <h1>All of our available cars are listed below. (note: update when we can choose one that available = true)</h1>
@@ -30,7 +36,7 @@
 
         $query = "SELECT * FROM car";
 
-        echo '<table border="2" cellspacing="2" cellpadding="2" bgcolor="#dcdcdc"> 
+        echo '<table cellspacing="2" cellpadding="2" > 
       <tr> 
           <td> <b><font face="Arial">VehicleID</font></b> </td> 
           <td> <b><font face="Arial">Model</font></b> </td> 

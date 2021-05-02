@@ -52,10 +52,7 @@ $content = '<img src="Images/new_BMW.png" class="imgLeft" />
 		<!-- this div will give a gap of 80px --> 
 		<div class="gap-80"></div> 
 	</body> 
-<p>
-Sidebar to the right that we can use for options as well but I think we can do this without it.
-Leaving it for now. 
-</p>
+
 
 
 ';
