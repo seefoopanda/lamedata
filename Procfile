@@ -1,1 +1,1 @@
-web: https://rentaldatabase.herokuapp.com/index.php
+web: index.php
