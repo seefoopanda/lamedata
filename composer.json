@@ -1,19 +1,15 @@
 {
-  "name": "vendor_name/RentalWebsite",
+  "name": "vendor_name/rentalwebsite",
   "description": "description",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
     {
       "name": "mansito",
-      "email": "email@example.com"
+      "email": "joshua.mansito@ucdenver.edu"
     }
   ],
   "require": {
     "monolog/monolog": "1.0.*"
-  },
-  "post-install-cmd": [
-    "php artisan clear-compiled",
-    "chmod -R 777 public/"
-  ]
+  }
 }
