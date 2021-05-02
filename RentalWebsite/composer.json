@@ -1,0 +1,14 @@
+{
+  "name": "vendor_name/RentalWebsite",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "mansito",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  }
+}

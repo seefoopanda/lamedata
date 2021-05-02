@@ -20,8 +20,7 @@
     </nav>
 
     <div id="content_area">
-        <h1>This is currently just showing cars, can update to rentals if needed. Thought was
-        to use the car table to show available cars?</h1>
+        <h1>All of our available cars are listed below. (note: update when we can choose one that available = true)</h1>
         <?php
         $username = "root";
         $password = "";
@@ -30,13 +29,13 @@
 
         $query = "SELECT * FROM car";
 
-        echo '<table border="0" cellspacing="2" cellpadding="2"> 
+        echo '<table border="2" cellspacing="2" cellpadding="2" bgcolor="#dcdcdc"> 
       <tr> 
-          <td> <font face="Arial">VehicleID</font> </td> 
-          <td> <font face="Arial">Model</font> </td> 
-          <td> <font face="Arial">Year</font> </td> 
-          <td> <font face="Arial">CarType</font> </td> 
-          <td> <font face="Arial">Available</font> </td> 
+          <td> <b><font face="Arial">VehicleID</font></b> </td> 
+          <td> <b><font face="Arial">Model</font></b> </td> 
+          <td> <b><font face="Arial">Year</font></b> </td> 
+          <td> <b><font face="Arial">CarType</font></b> </td> 
+          <td> <b><font face="Arial">Available</font></b> </td> 
       </tr>';
 
         if ($result = $mysqli->query($query)) {
