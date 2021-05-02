@@ -1,0 +1,1 @@
+web: https://rentaldatabase.herokuapp.com public/
