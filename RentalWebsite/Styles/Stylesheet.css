@@ -124,3 +124,7 @@ footer
     padding: 10px;
 }
 
+table, th, td {
+    border-bottom: 1px solid #ddd;
+    background-color: whitesmoke;
+}

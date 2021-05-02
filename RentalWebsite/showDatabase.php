@@ -33,7 +33,7 @@
 
         echo'<h3>Customers</h3>';
 
-        echo '<table border="2" cellspacing="2" cellpadding="2" bgcolor="#dcdcdc"> 
+        echo '<table  cellspacing="2" cellpadding="2"> 
       <tr> 
           <td> <b><font face="Arial">IdNo</font></b> </td> 
           <td> <b><font face="Arial">Name</font></b> </td> 
@@ -58,7 +58,7 @@
         //car table
         $query = "SELECT * FROM car";
 
-        echo '<table border="2" cellspacing="2" cellpadding="2" bgcolor="#dcdcdc"> 
+        echo '<table cellspacing="2" cellpadding="2" > 
       <tr> 
           <td> <b><font face="Arial">VehicleID</font></b> </td> 
           <td> <b><font face="Arial">Model</font></b> </td> 
@@ -89,7 +89,7 @@
         //CarType table
         $query = "SELECT * FROM cartype";
 
-        echo '<table border="2" cellspacing="2" cellpadding="2" bgcolor="#dcdcdc"> 
+        echo '<table cellspacing="2" cellpadding="2" > 
       <tr> 
           <td> <b><font face="Arial">CarType</font></b> </td> 
           <td> <b><font face="Arial">EffectiveDate</font></b> </td> 
@@ -117,7 +117,7 @@
         //Rental table
         $query = "SELECT * FROM rental";
 
-        echo '<table border="2" cellspacing="2" cellpadding="2" bgcolor="#dcdcdc"> 
+        echo '<table cellspacing="2" cellpadding="2" > 
       <tr> 
           <td> <b><font face="Arial">RentalID</font></b> </td> 
           <td> <b><font face="Arial">IdNo</font></b> </td> 
