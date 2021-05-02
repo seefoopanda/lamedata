@@ -1,1 +1,1 @@
-web: /Applications/XAMPP/xamppfiles/htdocs/Homework2 RentalWebsite/
+web: vendor/bin/heroku-php-apache2
