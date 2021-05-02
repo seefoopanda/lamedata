@@ -1,1 +1,1 @@
-web: index.php
+web: /Applications/XAMPP/xamppfiles/htdocs/Homework2 RentalWebsite/
