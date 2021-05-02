@@ -1,1 +1,1 @@
-web: https://rentaldatabase.herokuapp.com public/
+web: https://rentaldatabase.herokuapp.com
