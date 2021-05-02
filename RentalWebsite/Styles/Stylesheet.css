@@ -24,7 +24,7 @@ body p
     background-image: url(../Images/carBanner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 5px solid #dedede;    
+    border: 5px solid #dedede;
     height: 200px;
 }
 
@@ -87,10 +87,11 @@ footer
     font-size: 24px;
     float: left;
     position: relative;
-    width: 120px;
+    width: 15%;
     height: 50px;
-    padding: 4px;
+    padding: 0px;
     margin: 10px;
+    text-align: center;
 }
 
 #nav a:link, nav a:active, nav a:visited

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="f00feaa5-7921-428d-ae0a-189fc741537e" name="localhost" url="http://localhost:8080/Homework2/CoffeeWebsite/index.php">
+      <webServer id="f00feaa5-7921-428d-ae0a-189fc741537e" name="localhost" url="http://localhost:8080/Homework2/RentalWebsite/">
         <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
     </option>

@@ -21,13 +21,41 @@
     </nav>
 
     <div id="content_area">
-        <h1>All of our available cars are listed below. (note: update when we can choose one that available = true)</h1>
+        <h1>Printing out our entire database for grading:</h1>
         <?php
         $username = "root";
         $password = "";
         $database = "HW2";
         $mysqli = new mysqli("localhost", $username, $password, $database);
 
+        //Customer database
+        $query = "SELECT * FROM customer";
+
+        echo'<h3>Customers</h3>';
+
+        echo '<table border="2" cellspacing="2" cellpadding="2" bgcolor="#dcdcdc"> 
+      <tr> 
+          <td> <b><font face="Arial">IdNo</font></b> </td> 
+          <td> <b><font face="Arial">Name</font></b> </td> 
+          <td> <b><font face="Arial">Phone</font></b> </td> 
+      </tr>';
+
+        if ($result = $mysqli->query($query)) {
+            while ($row = $result->fetch_assoc()) {
+                $customerField1 = $row["IdNo"];
+                $customerField2 = $row["Name"];
+                $customerField3 = $row["Phone"];
+
+                echo '<tr> 
+                  <td>'.$customerField1.'</td> 
+                  <td>'.$customerField2.'</td> 
+                  <td>'.$customerField3.'</td> 
+              </tr>';
+            }
+            $result->free();
+        }
+
+        //car database
         $query = "SELECT * FROM car";
 
         echo '<table border="2" cellspacing="2" cellpadding="2" bgcolor="#dcdcdc"> 
@@ -38,29 +66,29 @@
           <td> <b><font face="Arial">CarType</font></b> </td> 
           <td> <b><font face="Arial">Available</font></b> </td> 
       </tr>';
-
         if ($result = $mysqli->query($query)) {
+            echo'<h3>All Cars</h3>';
             while ($row = $result->fetch_assoc()) {
-                $field1name = $row["VehicleID"];
-                $field2name = $row["Model"];
-                $field3name = $row["Year"];
-                $field4name = $row["CarType"];
-                $field5name = $row["Available"];
+                $carField1 = $row["VehicleID"];
+                $carField2 = $row["Model"];
+                $carField3 = $row["Year"];
+                $carField4 = $row["CarType"];
+                $carField5 = $row["Available"];
 
                 echo '<tr> 
-                  <td>'.$field1name.'</td> 
-                  <td>'.$field2name.'</td> 
-                  <td>'.$field3name.'</td> 
-                  <td>'.$field4name.'</td> 
-                  <td>'.$field5name.'</td> 
+                  <td>'.$carField1.'</td> 
+                  <td>'.$carField2.'</td> 
+                  <td>'.$carField3.'</td> 
+                  <td>'.$carField4.'</td> 
+                  <td>'.$carField5.'</td> 
               </tr>';
             }
             $result->free();
         }
+
+
         ?>
     </div>
 </div>
 </body>
 </html>
-
-
