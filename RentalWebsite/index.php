@@ -39,7 +39,8 @@ $content = '<img src="Images/new_BMW.png" class="imgLeft" />
 <img src="Images/pixar.jpg" class="imgLeft" />
 <h3>Sorry, but no pixar cars...</h3>
 <p>
-    Details of the project and a checklist of the requirements can be here.
+    BUT! If you really want a pixar car, it will only cost you an aditional $1,000,425,111!
+    It is a animated talking car after all.
 </p>
 <head> 
 		<style> 
