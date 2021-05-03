@@ -21,7 +21,7 @@ body p
 
 #banner
 {
-    background-image: url(../Images/carBanner.jpg);
+    background-image: url(../Images/bannerAudi.png);
     background-repeat: no-repeat;
     background-size: cover;
     border: 5px solid #dedede;
@@ -58,7 +58,7 @@ body p
 
 /* Active/current link */
 .sidebar a.active {
-    background-color: dodgerblue;
+    background-color: lightskyblue;
     color: white;
 }
 
@@ -80,7 +80,7 @@ footer
     text-align: center;
     color: #fff;
     text-shadow: 0.1em 0.1em #333;
-    background-image: url(../Images/car_background.jpg);
+    background-image: url(../Images/lightblue.jpg);
 }
 
 #navigation
@@ -89,7 +89,7 @@ footer
     border: 3px solid #E3E3E3;
     margin-top: 10px;
     text-shadow: 0.1em 0.1em #333;
-    background-image: url(../Images/car_background.jpg);
+    background-image: url(../Images/lightblue.jpg);
 }
 
 #nav
@@ -126,7 +126,7 @@ footer
 
 #nav a:hover
 {
-    color: lightblue;
+    color: dimgrey;
 }
 
 .imgLeft

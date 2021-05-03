@@ -15,7 +15,7 @@
                     <li><a href="index.php">Home</a></li>
                     <li><a href="customerIndex.php">Customer</a></li>
                     <li><a href="carIndex.php">New Car</a></li>
-                    <li><a href="showRentals.php">Rentals</a></li>
+                    <li><a href="rentalIndex.php">Rentals</a></li>
                     <li><a href="showDatabase.php">Database</a></li>
                 </ul>
             </nav>
