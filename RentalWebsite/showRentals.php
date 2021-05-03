@@ -25,7 +25,7 @@
         if($dayOrWeek == 'days') {
 
             // $calculatedDayReturn = date('Y-m-d', strtotime($startDate. + $periodConvert));
-            //  echo($calculatedReturn);
+            //  echo($calculatedDayReturn);
 
             $query = "SELECT C.VehicleID, C.Model, C.Year, C.CarType 
 FROM car AS C 
@@ -57,12 +57,32 @@ WHERE NOT((date '$startDate' <= R.ActualReturnDate) AND (R.StartDate <= date '$t
                 }
                 $result->free();
             }
+            echo'<!DOCTYPE html>
+<html lang="en">
+<center>
+<head>
+    <meta charset="UTF-8">
+    <h3>Please enter the VehicleID of the vehicle you would like to rent</h3>
+</head>
+<body>
+<form action="selectRental.php" method="POST">
+    <p>
+        <label for="Model">VehicleID:</label>
+        <input type="text" name="VID" id="VID">
+        </form>
+    <input type="submit" value="Submit">
+</form>
+    </p>
+    
+</body>
+</center>
+</html>';
         }
         //weeks
         if($dayOrWeek == 'weeks') {
 
-            // $calculatedDayReturn = date('Y-m-d', strtotime($startDate. + $periodConvert));
-            //  echo($calculatedReturn);
+            // $calculatedWeekReturn = date('Y-m-d', strtotime($startDate. + $periodConvert));
+            //  echo($calculatedWeekReturn);
 
             $query = "SELECT C.VehicleID, C.Model, C.Year, C.CarType 
 FROM car AS C 
@@ -94,6 +114,26 @@ WHERE NOT((date '$startDate' <= R.ActualReturnDate) AND (R.StartDate <= date '$t
                 }
                 $result->free();
             }
+            echo'<!DOCTYPE html>
+<html lang="en">
+<center>
+<head>
+    <meta charset="UTF-8">
+    <h3>Please enter the VehicleID of the vehicle you would like to rent</h3>
+</head>
+<body>
+<form action="selectRental.php" method="POST">
+    <p>
+        <label for="Model">VehicleID:</label>
+        <input type="text" name="VID" id="VID">
+        </form>
+    <input type="submit" value="Submit">
+</form>
+    </p>
+    
+</body>
+</center>
+</html>';
         }
         ?>
 </center>
