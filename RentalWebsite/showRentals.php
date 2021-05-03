@@ -17,6 +17,7 @@
 
         $startDate = $_REQUEST['startDate'];
         $day = $_REQUEST['days'];
+        $dayOrWeek = $_POST['dayOrWeek'];
         $dayConvert = strval( $day);
         $calculatedReturn = date('Y-m-d', strtotime($startDate. + $dayConvert));
         echo($calculatedReturn);

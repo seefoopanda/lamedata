@@ -18,9 +18,9 @@ $content = '<!DOCTYPE html>
         <input type="number" name="days" id="days">
     </p>
     <form id="s" method="post">
-<select name="size">
+<select name="dayOrWeek">
     <option value="days">Days</option>
-    <option value="medium">Weeks</option>
+    <option value="weeks">Weeks</option>
     </form>
     <input type="submit" value="Submit">
 </form>
