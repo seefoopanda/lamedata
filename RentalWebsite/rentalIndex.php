@@ -6,6 +6,7 @@ $content = '<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <h1>Find a rental!</h1>
+    <h3>Testing: Currently using temp return date, and 2020-04-29 as startDate</h3>
 </head>
 <body>
 <form action="showRentals.php" method="POST">
@@ -15,7 +16,7 @@ $content = '<!DOCTYPE html>
     </p>
     <p>
         <label for="Year">How long do you need the vehicle?:</label>
-        <input type="number" name="days" id="days">
+        <input type="number" name="period" id="period">
     </p>
     <form id="s" method="post">
 <select name="dayOrWeek">
