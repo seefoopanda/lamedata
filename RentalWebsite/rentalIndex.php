@@ -14,11 +14,19 @@ $content = '<!DOCTYPE html>
         <input type="text" name="startDate" id="startDate">
     </p>
     <p>
-        <label for="Year">Number of days?:</label>
+        <label for="Year">How long do you need the vehicle?:</label>
         <input type="number" name="days" id="days">
     </p>
+    <form id="s" method="post">
+<select name="size">
+    <option value="days">Days</option>
+    <option value="medium">Weeks</option>
+    </form>
     <input type="submit" value="Submit">
 </form>
+</select>
+
+
 </body>
 </center>
 </html>';

@@ -17,11 +17,14 @@
 
         $startDate = $_REQUEST['startDate'];
         $day = $_REQUEST['days'];
+        $dayConvert = strval( $day);
+        $calculatedReturn = date('Y-m-d', strtotime($startDate. + $dayConvert));
+        echo($calculatedReturn);
 
         $query = "SELECT C.VehicleID, C.Model, C.Year, C.CarType 
 FROM car AS C 
 LEFT OUTER JOIN rental R ON C.VehicleID = R.VehicleID
-WHERE NOT((date '2021-05-05' <= R.ActualReturnDate) AND (R.StartDate <= date '2021-05-13')) OR (R.StartDate IS NULL)";
+WHERE NOT((date '$startDate' <= R.ActualReturnDate) AND (R.StartDate <= date '$calculatedReturn')) OR (R.StartDate IS NULL)";
 
         echo'<h3>Available Cars to Rent</h3>';
         echo '<table cellspacing="2" cellpadding="2" > 
