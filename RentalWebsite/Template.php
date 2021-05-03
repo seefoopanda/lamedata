@@ -17,6 +17,7 @@
                     <li><a href="carIndex.php">New Car</a></li>
                     <li><a href="rentalIndex.php">Rentals</a></li>
                     <li><a href="showDatabase.php">Database</a></li>
+                    <li><a href="returnIndex.php">Returns</a></li>
                 </ul>
             </nav>
             
